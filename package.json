@@ -11,8 +11,9 @@
 		"check": "node fepm-versioncheck.js",
 		"build:css": "node-sass project/assets/sass/style.scss -o project",
 		"build:cssmin": "node-sass --output-style compressed project/assets/sass/style.scss style.min.css -o project",
+		"build:editorcss": "node-sass project/assets/sass/editor-style.scss -o project/css",
 		"build:js": "node build-javascript.js",
-		"build": "npm run build:css && npm run build:cssmin && npm run build:js"
+		"build": "npm run build:css && npm run build:cssmin && npm run build:editorcss && npm run build:js"
 	},
 	"private": true
 }
