@@ -1,0 +1,13 @@
+// Example file. Copy this into a project/assets/js-includes.json, adjust the scripts key and remove this comment line.
+{
+	"description":"Specify the javascript files that should be included for this theme.",
+	"scripts": {
+		"functions": [
+			"project/assets/js/vendors/heartcoded/navigation.js",
+			"project/assets/js/custom.js"
+		],
+		"head-test": [
+			"project/assets/js/custom-head.js"
+		]
+	}
+}
