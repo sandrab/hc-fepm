@@ -24,6 +24,9 @@ npm run build:css
 > Generate minified style.min.css using sass:
 npm run build:cssmin
 
+> Generate editor-style.css using sass:
+npm run build:editorcss
+
 > Generate js (generates both normal and minified versions of each scripts key specified in assets/js/js-includes.json):
 npm run build:js
 
