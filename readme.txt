@@ -6,6 +6,9 @@ Open cmd prompt in D:\vagrant\greenhost\ and run: vagrant up
 > SSH into the vagrant box:
 Start putty, open the 'Vagrant' session, login as vagrant/vagrant and cd into the project's build-tools directory: cd /vagrant/fepm/project/build-tools/
 
+> Check if the current version of hc-fepm is the version needed for the current project.
+npm run check
+
 > Check if there are updates available for bower components:
 bower list
 
