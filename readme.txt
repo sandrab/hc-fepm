@@ -8,6 +8,7 @@ Start putty, open the 'Vagrant' session, login as vagrant/vagrant and cd into th
 
 > Check if the current version of hc-fepm is the version needed for the current project.
 npm run check
+If this indicates the version of hc-fepm is not the version used for this project, manually copy the correct version from fepm/bower_components/hc-fepm-x.y.z/ into fepm/.
 
 > Check if there are updates available for bower components:
 bower list
