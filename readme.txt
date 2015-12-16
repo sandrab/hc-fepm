@@ -28,7 +28,7 @@ npm run build:cssmin
 > Generate editor-style.css using sass:
 npm run build:editorcss
 
-> Generate js (generates both normal and minified versions of each scripts key specified in assets/js/js-includes.json):
+> Generate js (generates both normal and minified versions of each scripts key specified in assets/js/js-includes.json) [Note: the project/js/ folder must already exist]:
 npm run build:js
 
 > Generate all css and js together in one go:
